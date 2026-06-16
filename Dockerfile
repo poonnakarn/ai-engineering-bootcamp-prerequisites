@@ -2,7 +2,7 @@ FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
 WORKDIR /app
 
-# Enable bytecode compilation and Python optimization
+# Disable bytecode compilation and Python optimization
 ENV PYTHONOPTIMIZE=1
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
