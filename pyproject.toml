@@ -8,6 +8,7 @@ dependencies = [
     "google-genai>=2.8.0",
     "groq>=1.4.0",
     "ipykernel>=7.3.0",
+    "nbconvert>=7.17.1",
     "openai>=2.41.1",
     "pydantic>=2.13.4",
     "pydantic-settings>=2.14.1",
@@ -18,4 +19,5 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "apps/api",
+    "apps/chatbot_ui",
 ]
